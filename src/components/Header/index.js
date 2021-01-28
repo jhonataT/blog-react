@@ -1,14 +1,18 @@
 import React from 'react';
+import './style.css';
 
 const Header = props => {
     return (
-        <Header>   
-            <nav>
-                <a href="https://github.com/jhonataT/blog-react/blob/master/src/App.js">Home</a>
-                <a href="https://github.com/jhonataT/blog-react/blob/master/src/App.js">About Us</a>
-                <a href="https://github.com/jhonataT/blog-react/blob/master/src/App.js">Contact Us</a>
+        <header className="header">
+           <nav className="headerMenu">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
             </nav>
-        </Header>
+            <div>
+                Social Media links
+            </div>
+        </header>
     );
 };
 
