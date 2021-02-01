@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from '../UI/Card';
+import Logo from '../Logo';
 import './style.css';
 
 const Hero = props => {
     return (
         <div>
             <Card>
-                Jhonata Tenorio
+                <Logo/>
             </Card>
         </div>
     );
