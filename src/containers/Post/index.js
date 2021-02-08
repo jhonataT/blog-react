@@ -1,11 +1,18 @@
 import React from 'react';
 import './style.css';
+import Card from '../../components/UI/Card';
 
 const Post = props => {
     return (
-        <div>
-            Post
-        </div>
+        <section className="container">
+            <Card className="blogPost">
+                blogPost
+            </Card>
+
+            <Card className="sidebar">
+                sideBar
+            </Card>
+        </section>
     );
 };
 

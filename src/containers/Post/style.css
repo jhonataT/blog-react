@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.blogPost {
+    width: 70%;
+    background: #fff;
+}
+
+.sidebar {
+    width: 27%;
+}
