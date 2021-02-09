@@ -3,7 +3,7 @@ import './style.css';
 
 const BlogPost = props => {
     return (
-        <div>BlogPost</div>
+        <div className="blogPost" >BlogPost</div>
     );
 };
 
