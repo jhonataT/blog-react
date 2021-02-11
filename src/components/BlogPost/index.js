@@ -1,9 +1,12 @@
 import React from 'react';
 import './style.css';
+import Card from '../UI/Card';
 
 const BlogPost = props => {
     return (
-        <div className="blogPost" >BlogPost</div>
+        <Card width='70%'>
+            
+        </Card>
     );
 };
 

@@ -1,9 +1,12 @@
 import React from 'react';
 import './style.css';
+import Card from '../UI/Card';
 
 const Sidebar = props => {
     return (
-        <div>Sidebar</div>
+        <Card width='27%'>
+            Sidebar
+        </Card> 
     );
 };
 
