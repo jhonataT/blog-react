@@ -31,3 +31,5 @@ const RecentPosts = (props) => {
     </div>
   );
 };
+
+export default RecentPosts;

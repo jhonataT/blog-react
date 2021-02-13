@@ -51,4 +51,4 @@ const BlogPost = (props) => {
 
 }
 
-export default 
+export default BlogPost;
